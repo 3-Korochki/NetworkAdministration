@@ -28,7 +28,7 @@ description: Выполнено исключительно своими рука
 ![](assets/image-7.png)
 2. Заходим в grafana, включаем плагин
 ![](assets/image-8.png)
-3. Подключаем Loki к Grafana
+3. Подключаем Loki к Grafana  
 ![](assets/image-9.png)
 4. Подключаем zabbix к Grafana
 ![](assets/image-10.png)
