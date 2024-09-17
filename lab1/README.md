@@ -6,34 +6,34 @@ description: Выполнено исключительно своими рука
 #### Логирование
 1. Создали файлы docker-compose.yml, promtail_config.yml
 2. Запустили compose файл командой `docker-compose up -d`
-![все запустилось](image.png)
+![](assets/image.png)
 3. Заходим на nextcloud, Создаем админа
-![alt text](image-1.png)
+![](assets/image-1.png)
 4. Смотрим логи
-![alt text](image-2.png)
+![](assets/image-2.png)
 5. Проверяем, нашел ли promtail файл с логами от nextcloud:
-![alt text](image-3.png)
+![](assets/image-3.png)
 ---
 #### Мониторинг
 1. Заходим в zabbix, импортируем template
-![alt text](image-4.png)
-![alt text](image-5.png)
+![](assets/image-4.png)
+![](assets/image-5.png)
 2. Командой `docker exec -u www-data nextcloud php occ config:system:set trusted_domains 1 --value="nextcloud"` разрешаем zabbix подключаться к nexcloud
 3. Создаем хост, применяем к нему созданный template
 4. Проверим, работает ли триггер, включая и выключая тех. работы в nextcloud
-![alt text](image-6.png)
+![](assets/image-6.png)
 ---
 #### Визуализация
 1. Устанавливаем плагин на zabbix для grafana
-![alt text](image-7.png)
+![](assets/image-7.png)
 2. Заходим в grafana, включаем плагин
-![alt text](image-8.png)
+![](assets/image-8.png)
 3. Подключаем Loki к Grafana
-![alt text](image-9.png)
+![](assets/image-9.png)
 4. Подключаем zabbix к Grafana
-![alt text](image-10.png)
+![](assets/image-10.png)
 5. Создаем дашборд со статусом nextcloud из zabbix и логами из loki:
-![alt text](image-12.png)
+![](assets/image-12.png)
 ---
 ### Ответы на вопросы:
 1. Чем SLO отличается от SLA?
