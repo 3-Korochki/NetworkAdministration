@@ -11,4 +11,9 @@ first:
 	docker exec ansible ansible-playbook file_change.yml
 
 
+PHONY: second
+
+second:
+	docker exec ansible ansible-playbook caddy_deploy.yml
+
 

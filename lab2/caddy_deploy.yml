@@ -1,0 +1,7 @@
+---
+
+- name: Install and configure Caddy webserver on remote host # Любое описание
+  hosts: my_servers # хосты из файла inventory/hosts, где будем выполнять наш плейбук
+
+  roles:
+    - caddy_deploy # собственно, роль для выполнения
