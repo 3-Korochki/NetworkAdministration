@@ -38,7 +38,7 @@ caddy_deploy.yml
 ![image](https://github.com/user-attachments/assets/dcd42d73-cd3c-4d57-ad0e-0f649120fe36)
 
 
-Congretulations!
+Congratulations!
 ![image](https://github.com/user-attachments/assets/92fdd922-ea1c-4031-bd33-4667390967ad)
 
 
@@ -47,6 +47,9 @@ Congretulations!
 
 
 Запустили вот такой домен
+
+http://pythonists.duckdns.org
+
 ![image](https://github.com/user-attachments/assets/f213b339-ff0e-4adf-8374-9f1f7b0a5ed8)
 
 И снова всё в шоколаде!
