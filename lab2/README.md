@@ -10,9 +10,11 @@ description: Выполнено исключительно своими рука
 #### Часть 1
 
 Установили pip и ansible, а директории оставили, заинициализировав:
+
 ![image](https://github.com/user-attachments/assets/e21ee5ba-1d82-4c40-b474-62c50bb0dc60)
 
 Создали папку и вот такой файл с хостами:
+
 ![image](https://github.com/user-attachments/assets/4fd48fe9-5974-47bf-bbbd-9d069039cdbd)
 
 Проверили всё по вашей дословной инструкции, спасибо!
