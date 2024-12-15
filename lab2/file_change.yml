@@ -1,0 +1,7 @@
+---
+- name: Create / update / remove file on remote host # Любое описание
+  hosts: my_servers # хосты из файла inventory/hosts, где будем выполнять наш плейбук
+  remote_user: root
+
+  roles:
+    - file_change # собственно, роль для выполнения
